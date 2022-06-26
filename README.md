@@ -23,24 +23,21 @@ When a shop receives a product delivery, it creates orders and broadcasts a deli
 
 ## Implementation Details
 
-### Assumptions
-- The system notifies observers every time the state is changed, i.e., a new delivery request is created. 
-- The system assumes a product delivery contains a product.
+
 
 ### Observer Pattern
 This project uses the observer pattern, which defines a one-to-many dependency between 
 objects so that when one object changes state, all of its dependents are notified and updated automatically.
+
 In this case, observers (**drivers**) delegate the responsibility for monitoring for an event (**new delivery
 requests**) to a central object named the **Subject** or Observable. Here, Shop implements Subject, making it 
 the ConcreteSubject. Similarly, Driver implements Observer, making it the ConcreteObserver. 
 
 ### Software Design Principles 
-This application has a loosely coupled design pattern. Because this application employs an observer pattern, drivers
-can be modified without changing the shop or other drivers. This application also does a good job in regard to 
-information hiding. Subject does not know what kind of observer it is communicating with, which also makes the 
-application very flexible. The observer pattern also divided the application into well-defined parts, which relates 
-to modularity. Not only is the application divided well, but it is also cohesive. Like-minded elements are grouped 
-together. For example, the classes Observer, Driver, TaxiDriver, and VanDriver are in a package called Observer. 
+This application has a loosely coupled design pattern. 
+Drivers can be modified without changing the shop or other drivers. 
+This application also does a good job in regard to information hiding. 
+Subjects do not know what kind of observer it is communicating with. 
 
 ## Installation
 
