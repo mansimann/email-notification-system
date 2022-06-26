@@ -1,6 +1,5 @@
 # :bell: Notification System
 
-![Custom badge](https://img.shields.io/badge/repo%20size-136%20KB-blue)
 ![Custom badge](https://img.shields.io/badge/build-passing-brightgreen)
 ![Custom badge](https://img.shields.io/badge/build%20tool-maven-brightgreen)
 ![Custom badge](https://img.shields.io/badge/code%20analysis%20tools-spotbugs,%20checkstyle-orange)
