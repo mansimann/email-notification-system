@@ -1,4 +1,4 @@
-# :bell: Notification System
+# :bell: Email Notification System
 
 ![Custom badge](https://img.shields.io/badge/build-passing-brightgreen)
 ![Custom badge](https://img.shields.io/badge/build%20tool-maven-brightgreen)
